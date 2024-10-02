@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa de Tráfego Pago</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tráfego Pago Profissional</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Impulsione seus resultados com campanhas de tráfego pago</h2>
+            <button onclick="scrollToSection('services')">Nossos Serviços</button>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Serviços</h2>
+            <div class="service-card">
+                <img src="ads.jpeg" alt="Gestão de Anúncios">
+                <h3>Gestão de Anúncios</h3>
+                <p>Criamos e gerenciamos suas campanhas no Google Ads e redes sociais.</p>
+            </div>
+            <div class="service-card">
+                <img src="analytics.jpg" alt="Análise de Resultados">
+                <h3>Análise de Resultados</h3>
+                <p>Monitoramento e otimização constante para maximizar seu ROI.</p>
+            </div>
+            <div class="service-card">
+                <img src="consulting.jpg" alt="Consultoria">
+                <h3>Consultoria</h3>
+                <p>Aconselhamento estratégico para direcionar seus investimentos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma empresa especializada em tráfego pago com foco em resultados mensuráveis. Com anos de experiência, garantimos que cada investimento gere o maior retorno possível.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Empresa de Tráfego Pago. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

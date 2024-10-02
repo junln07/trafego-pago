@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    text-align: center;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4c4c;
+}
+
+#services {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.service-card {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.service-card img {
+    max-width: 100%;
+    height: auto;
+    width: 300px; /* Tamanho máximo da largura */
+    object-fit: cover; /* Ajusta a imagem dentro do espaço disponível */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+#about, #contact {
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+@media (max-width: 768px) {
+    .service-card img {
+        width: 100%; /* Ajuste responsivo para telas menores */
+    }
+}
+
+@media (min-width: 769px) {
+    .service-card img {
+        width: 300px; /* Ajuste para telas maiores */
+    }
+}
